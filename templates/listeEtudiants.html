@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <div>
+            <h1>Liste des étudiants</h1>
+
+            <form action="/choixEtudiant">
+              <label for="etudiant">Sélectionner l'étudiants</label>
+              <select name="etudiant" id="etudiant">
+                <option value="1"> {{ nom1 }} {{ prenom1 }}</option>
+                <option value="2">{{ nom2 }} {{ prenom2 }}</option>
+                <option value="3">{{ nom3 }} {{ prenom3 }}</option>
+                <option value="3">{{ nom4 }} {{ prenom4 }}</option>
+              </select>
+              <br><br>
+              <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
